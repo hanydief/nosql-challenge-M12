@@ -131,6 +131,8 @@ Correctly imports PyMongo and Pretty Print (2 points)
 
 - The establishments collection is assigned to a variable (1 point)
 
+![P1-Q1](https://github.com/hanydief/nosql-challenge-M12/blob/main/Output_screenshots/P1-Q1.png)
+
 # Part 2: Update the Database (20 points)
 To receive all points, your Jupyter notebook setup file must have all of the following:
 - The supplied data for the "Penang Flavours" restaurant is correctly inserted into the establishments collection (3 points)
@@ -139,11 +141,17 @@ To receive all points, your Jupyter notebook setup file must have all of the fol
 
 - The "Penang Flavours" document is updated with the correct value for BusinessTypeID (3 points)
 
+![P1-Q2](https://github.com/hanydief/nosql-challenge-M12/blob/main/Output_screenshots/P1-Q2.png)
+
 - A query is correctly performed to delete all the documents in the collection where "Dover Local Authority" is the value for LocalAuthorityName (3 points)
 
 - A count_documents() check is performed before and after the removal of the Dover documents to ensure the documents were removed (4 points)
 
+![P1-Q3](https://github.com/hanydief/nosql-challenge-M12/blob/main/Output_screenshots/P1-Q3.png)
+
 - An update_many() query is performed to convert the latitude and longitude fields from strings to decimal numbers and RatingValue to integers (4 points)
+
+![P1-Q4](https://github.com/hanydief/nosql-challenge-M12/blob/main/Output_screenshots/P1-Q4.png)
 
 # Part 3: Exploratory Analysis (55 points)
 To receive all points, your Jupyter notebook analysis file must have all of the following:
@@ -157,6 +165,8 @@ To receive all points, your Jupyter notebook analysis file must have all of the 
 
 - The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)
 
+![P2-Q1](https://github.com/hanydief/nosql-challenge-M12/blob/main/Output_screenshots/P2-Q1.png)
+
 ## Question 2: Which establishments in London have a RatingValue greater than or equal to 4? (12 points)
 
 - A query is correctly performed to find the establishments in London with a RatingValue greater than or equal to 4 (4 points)
@@ -168,6 +178,8 @@ To receive all points, your Jupyter notebook analysis file must have all of the 
 - The first result is printed using pprint (2 points)
 
 - The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)
+
+![P2-Q2](https://github.com/hanydief/nosql-challenge-M12/blob/main/Output_screenshots/P2-Q2.png)
 
 ## Question 3: What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"? (15 points)
 
@@ -182,6 +194,9 @@ To receive all points, your Jupyter notebook analysis file must have all of the 
 - All five results are printed using pprint (3 points)
 
 - The results are converted to a Pandas DataFrame and displayed (2 points)
+
+![P2-Q3](https://github.com/hanydief/nosql-challenge-M12/blob/main/Output_screenshots/P2-Q3.png)
+
 
 ## Question 4: How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas. (20 points)
 
@@ -200,6 +215,8 @@ To receive all points, your Jupyter notebook analysis file must have all of the 
 - The first ten results are printed using pprint (3 points)
 
 - The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)
+
+![P2-Q4](https://github.com/hanydief/nosql-challenge-M12/blob/main/Output_screenshots/P2-Q4.png)
 
 ## Deployment and Submission (6 points)
 To receive all points, you must:
